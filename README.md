@@ -108,4 +108,4 @@ sudo::print(users);
 This project is licensed under the **MIT License**.  
 Free to use, modify, and distribute, as long as the original author is credited.
 
-Copyright © 2026 **[Your Name]**. All rights reserved.
+Copyright © 2026 **Sudo-666**. All rights reserved.
