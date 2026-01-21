@@ -1,0 +1,27 @@
+/* LTR Styles for Maasir Theme (Persian LTR) */
+body {
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+/* Ensure block elements flow LTR by default */
+ul, ol {
+    padding-right: 0; /* Reset potential RTL padding */
+    padding-left: 20px; /* Standard LTR padding for lists, adjust as needed */
+}
+
+li {
+    margin-right: 0; /* Reset potential RTL margin */
+    margin-left: auto; /* Align list items to the left */
+    text-align: left;
+}
+
+/* General text alignment */
+p, h1, h2, h3, h4, h5, h6, td, th, div {
+    text-align: left;
+}
+
+/* Adjust widget alignment if necessary, though Elementor often handles this */
+.widget {
+    text-align: left;
+}
